@@ -28,7 +28,7 @@ heron_core = { version = "0.12.1", path = "core" }
 heron_macros = { version = "0.12.1", path = "macros" }
 heron_rapier = { version = "0.12.1", path = "rapier" }
 heron_debug = { version = "0.12.1", path = "debug", optional = true }
-bevy = { git="https://github.com/bevyengine/bevy.git", default-features = false }
+bevy = { git="https://github.com/bevyengine/bevy.git", branch="main", default-features = false }
 
 [dev-dependencies]
 bevy = { git="https://github.com/bevyengine/bevy.git", default-features = false, features=["render", "x11"] }
