@@ -31,7 +31,7 @@ heron_debug = { version = "0.12.1", path = "debug", optional = true }
 bevy = { git="https://github.com/bevyengine/bevy.git", branch="main", default-features = false }
 
 [dev-dependencies]
-bevy = { git="https://github.com/bevyengine/bevy.git", default-features = false, features=["render", "x11"] }
+bevy = { git="https://github.com/bevyengine/bevy.git", branch="main", default-features = false, features=["render", "x11"] }
 skeptic = "0.13"
 rstest = "0.7"
 
